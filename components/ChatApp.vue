@@ -2,6 +2,7 @@
 <div>
    <div v-if="!joined" class="parent">
     <div class="container">
+    ระบบปิดเเล้ว รออัปเดตนะงับ
         <input type="text" class="username" v-model="currentUser" />
         <button class="btn" @click="join"> Join</button>
     </div>
