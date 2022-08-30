@@ -71,7 +71,8 @@ addtext(){
 </script>
 <style scoped>
 .container-text{
-    height: 10vh;
+    height: 500px;
+    overflow-x: auto;
 }
 .text-area{
 width: 100%;
